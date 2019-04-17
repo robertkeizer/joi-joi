@@ -6,7 +6,7 @@
   "repository": "git@github.com:robertkeizer/joi-joi.git",
   "author": "Robert Keizer <robert@keizer.ca>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
   },
