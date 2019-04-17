@@ -1,7 +1,11 @@
 # joi-joi
-Joi validation for Joi Schema
+Joi validation for of Joi schema objects.
 
-Use this module if you'd like to validate a Joi schema object that may be external to your own system.
+Use this module if you'd like to validate a Joi schema object using Joi.
+
+## Disclaimers
+ * This module is most likely not right for you.
+ * This module is not affiliated with the Joi project.
 
 ## Usage
 ```javascript
@@ -13,14 +17,8 @@ const validObject = Joi.object( ).keys( {
 	"foo": Joi.string( )
 } );
 
-const invalidObject = { "foo": "bar" };
-
 Joi.validate( validObject, Joi.joi( ).valid( ), ( err, result ) => {
 	// err => null
 	// result => Joi schema object
-} );
-
-Joi.validate( invalidObject, Joi.joi( ).valid( ), ( err, result ) => {
-	// err => populated
 } );
 ```
