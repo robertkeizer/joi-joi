@@ -1,6 +1,6 @@
 {
   "name": "joi-joi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Joi validation of Joi schemas",
   "main": "lib/joijoi.js",
   "repository": "git@github.com:robertkeizer/joi-joi.git",
