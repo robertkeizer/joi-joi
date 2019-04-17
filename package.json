@@ -7,6 +7,7 @@
   "author": "Robert Keizer <robert@keizer.ca>",
   "license": "MIT",
   "private": false,
+  "keywords": [ "joi", "validation", "meta", "joi-joi" ],
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
   },
